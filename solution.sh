@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 1. Sort the contents of "numbers.txt" in ascending order
-sort -n number.txt > sorted_number.txt
+sort -n number.txt
 
 # 2. Print the IP address of the machine
 ifconfig
@@ -34,5 +34,5 @@ ps aux --sort=-%mem | head -20
 find / -type d -name "backup" 2>/dev/null
 
 # 12. Replace every occurrence of "foo" with "bar" in "example.txt" and save to "new_example.txt"
-sed 's/foo/bar/g' example.txt >
-new_example.txt
+sed 's/foo/bar/g' example.txt 
+
