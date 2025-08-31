@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 1. Sort the contents of "numbers.txt" in ascending order
-sort -n number.txt -o number.txt
+sort -n number.txt > sorted_number.txt
 
 # 2. Print the IP address of the machine
 ifconfig
